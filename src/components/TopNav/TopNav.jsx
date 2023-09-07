@@ -1,5 +1,7 @@
 import React from 'react'
 
+import { Link } from 'react-router-dom'
+
 const TopNav = () => {
   return (
     <div className='top__nav'>
@@ -12,7 +14,9 @@ const TopNav = () => {
           <span className='notification'>
             <i class="ri-notification-3-line"></i>
           </span>
-          <div className="profile"></div>
+          <div className="profile">
+            <Link></Link>
+          </div>
         </div>
       </div>
     </div>
