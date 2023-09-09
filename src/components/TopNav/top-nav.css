@@ -1,0 +1,22 @@
+
+
+.top__nav {
+    position: fixed;
+    top: 0;
+    left: 260px;
+    z-index: 999;
+    background: var(--primary-color);
+    width: calc(100% - 260px);
+    height: 70px;
+    line-height: 70px;
+}
+.top__nav-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+}
+.search__box 
+.top__nav-right {
+    width: 50%;
+}

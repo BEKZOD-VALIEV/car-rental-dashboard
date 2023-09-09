@@ -1,6 +1,8 @@
 import React from 'react'
 
 import { Link } from 'react-router-dom'
+import profileImg from '../../assets/images/profile-02.png'
+import './top-nav.css'
 
 const TopNav = () => {
   return (
@@ -15,7 +17,9 @@ const TopNav = () => {
             <i class="ri-notification-3-line"></i>
           </span>
           <div className="profile">
-            <Link></Link>
+            <Link to='/settings'>
+              <img src={profileImg} alt='' />
+            </Link>
           </div>
         </div>
       </div>
