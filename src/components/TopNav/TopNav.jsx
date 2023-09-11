@@ -1,7 +1,7 @@
 import React from 'react'
 
 import { Link } from 'react-router-dom'
-import profileImg from '../../assets/images/profile-02.png'
+import profileImg from '../../assets/images/bek.jpg'
 import './top-nav.css'
 
 const TopNav = () => {
@@ -15,6 +15,7 @@ const TopNav = () => {
         <div className="top__nav-right">
           <span className='notification'>
             <i class="ri-notification-3-line"></i>
+            <span className="badge">1</span>
           </span>
           <div className="profile">
             <Link to='/settings'>
