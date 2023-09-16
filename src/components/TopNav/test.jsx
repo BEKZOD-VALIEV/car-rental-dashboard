@@ -1,1 +1,0 @@
-// Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur necessitatibus accusantium repellat quae in expedita cumque doloremque iste culpa. Neque dolor numquam minus excepturi alias totam porro earum quam. Dolorum esse sint quia omnis eveniet odit, nam quod, pariatur necessitatibus quibusdam delectus aliquid animi harum possimus blanditiis odio voluptatibus iste?
