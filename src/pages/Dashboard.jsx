@@ -2,6 +2,10 @@ import React from 'react'
 import '../styles/dashboard.css'
 import SingleCard from "../components/reuseable/SingleCard"
 
+import { ResponsiveContainer, BarChart, Bar, XAxis, Tooltip } from 'recharts';
+
+import mileStaticsData from '../assets/dummy-data/mileStatics'
+
 const carObj = {
   title: 'Total Cars',
   totalNumber: 750,
@@ -35,6 +39,34 @@ const Dashboard = () => {
           <SingleCard item={tripObj} />
           <SingleCard item={clientObj} />
           <SingleCard item={distanceObj} />
+        </div>
+
+        <div className="statics">
+          <div className="stats">
+            <ResponsiveContainer width='100%'>
+              <BarChart data={mileStaticsData}>
+                <XAxis dataKey='name' stroke='#2884ff' />
+                <Bar 
+                  dataKey='mileStats' 
+                  stroke='#2884ff' 
+                  fill='#2884ff'
+                  barSize={30} />
+              </BarChart>
+            </ResponsiveContainer>
+          </div>
+
+          <div className="stats">
+            <ResponsiveContainer width='100%'>
+              <BarChart data={mileStaticsData}>
+                <XAxis dataKey='name' stroke='#2884ff' />
+                <Bar 
+                  dataKey='mileStats' 
+                  stroke='#2884ff' 
+                  fill='#2884ff'
+                  barSize={30} />
+              </BarChart>
+            </ResponsiveContainer>
+          </div>
         </div>
       </div>
     </div>
