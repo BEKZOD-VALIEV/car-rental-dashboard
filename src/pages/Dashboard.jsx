@@ -4,6 +4,7 @@ import SingleCard from "../components/reuseable/SingleCard";
 
 import MileChart from "../charts/mileChart";
 import CarStatsChart from "../charts/CarStatsChart";
+import miniCar from "../assets/images/mini-car-01.png"
 
 const carObj = {
   title: 'Total Cars',
@@ -59,12 +60,12 @@ const Dashboard = () => {
             </div>
 
             <div className="recommend__car-img">
-              <img src="../assets/images/mini-car-01.png" alt="" />
+              <img src={miniCar} alt="" />
             </div>
             <div className="recommend__car-bottom">
               <h4>Mini Cooper</h4>
               <div className='recommend__car-other'>
-                <div>
+                <div className='recommed__icons'>
                   <p>
                     <span>
                       <i class="ri-repeat-line"></i>
