@@ -54,34 +54,7 @@ const Dashboard = () => {
         </div>
 
         <div className="recommend__cars-wrapper">
-          <div className="recommend__car-card">
-            <div className="recommend__car-top">
-              <h5><span><i class="ri-refresh-line"></i></span>74% Recommended</h5>
-            </div>
-
-            <div className="recommend__car-img">
-              <img src={miniCar} alt="" />
-            </div>
-            <div className="recommend__car-bottom">
-              <h4>Mini Cooper</h4>
-              <div className='recommend__car-other'>
-                <div className='recommed__icons'>
-                  <p>
-                    <span>
-                      <i class="ri-repeat-line"></i>
-                    </span>
-                    130k
-                  </p>
-                  <p>
-                    <span>
-                      <i class="ri-timer-flash-line"></i>
-                    </span>
-                  </p>
-                </div>
-                <span>$30/h</span>
-              </div>
-            </div>
-          </div>
+          
         </div>
       </div>
     </div>
