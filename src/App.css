@@ -38,3 +38,7 @@ a {
 .main__layout {
   margin-left: 260px;
 }
+
+img {
+  width: 100%;
+}
